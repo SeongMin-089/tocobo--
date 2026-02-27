@@ -10,7 +10,7 @@ import Instargram from './sections/Instargram'
 function App() {
 
   return (
-    <>
+    <div>
       <Header />
       <main>
         <section id="hero" className='section'>
@@ -30,7 +30,7 @@ function App() {
         </section>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 
