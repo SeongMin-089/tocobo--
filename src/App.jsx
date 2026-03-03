@@ -1,4 +1,4 @@
-
+import React,{useState, useEffect} from 'react'
 import './styles/main.scss'
 import Header from './components/Header'
 import Hero from './sections/Hero'
@@ -7,10 +7,13 @@ import Follow from './sections/Follow'
 import Collection from './sections/Collection'
 import SkinCare from './sections/SkinCare'
 import Instargram from './sections/Instargram'
+import TopBanner from './components/TopBanner'
 function App() {
+  const [topBanner, setTopBanner] = useState('')
 
   return (
     <div>
+      <TopBanner/>
       <Header />
       <main>
         <section id="hero" className='section'>
