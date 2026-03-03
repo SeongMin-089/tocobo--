@@ -5,10 +5,10 @@ const img = (path) => `/img/${path}`;
 export const heroSlides = [
   {
     id: "hs-1",
-    title: "Always Sun-Ready <br>Mini Sun Stick Trio",
-    subtitle: "Clean • Gentle • Effective",
+    title: "The perfect Gift",
+    subtitle: "Diptyque celebrates love through its scented creations.",
     desc: "피부 본연의 균형을 위한 미니멀 케어",
-    ctaText: "미니 선스틱 트리오 보기",
+    ctaText: "•  Explore  •",
     ctaHref: "/products",
     image: {
       desktop: img("main_d_1.png"),

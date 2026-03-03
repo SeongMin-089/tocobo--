@@ -10,10 +10,30 @@ import Instargram from './sections/Instargram'
 import TopBanner from './components/TopBanner'
 function App() {
   const [topBanner, setTopBanner] = useState('')
+  const [isScrolled, setIsScrolled] = useState(false)
+
+
+  useEffect(() => {
+
+    const handleScroll = () => {
+      const scrollTop = window.scrollY
+
+      setIsScrolled(scrollTop > 200)
+
+      // console.log(scrollTop)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+  }, [])
+
+  const upTopBanner = () => {
+    setTopBanner('up')
+  }
 
   return (
-    <div>
-      <TopBanner/>
+    <div className={`app-container ${topBanner} ${isScrolled ? 'scrolled' : ''} `}>
+      <TopBanner onClick={upTopBanner}/>
       <Header />
       <main>
         <section id="hero" className='section'>
