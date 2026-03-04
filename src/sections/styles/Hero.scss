@@ -107,7 +107,7 @@
             height: 5rem;
             position: relative;
             font-size: 0;
-            color: var(--bg);
+            color: var(--primary);
             .swiper-pagination-current{
                 font-size: 2.2rem;
                 position: absolute;
@@ -127,7 +127,7 @@
                 position: absolute;
                 width: 1px;
                 height: 50px;
-                background-color: var(--bg);
+                background-color: var(--primary);
                 left: 10%;
                 top: 40%;
                 transform: rotate(45deg) translate(-50%,-50%);
