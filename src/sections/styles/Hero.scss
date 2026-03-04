@@ -59,10 +59,6 @@
         }
 
         &.hs-3 {
-            .inner {
-                text-align: center;
-                justify-content: center;
-
                 h2.tit {
                     color: var(--main-slider03-tit)
                 }
@@ -78,18 +74,8 @@
                         color: var(--tertiary)
                     }
                 }
-            }
         }
 
-        &.hs-4 {
-            h2.tit {
-                color: var(--main-slider04-tit)
-            }
-
-            p.txt {
-                color: var(--main-slider04-sub)
-            }
-        }
     }
 
     .hero-nav{

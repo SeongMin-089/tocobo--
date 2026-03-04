@@ -23,7 +23,7 @@ export const heroSlides = [
     title: "Home Fragrance",
     subtitle: "The signature Diptyque oval design",
     desc: "가볍지만 깊게, 산뜻한 촉촉함",
-    ctaText: "• Discover diffusers •",
+    ctaText: "• Discover •",
     ctaHref: "/story/hydration",
     image: {
       desktop:  img("main_d_2.png"),
@@ -35,32 +35,17 @@ export const heroSlides = [
   },
   {
     id: "hs-3",
-    title: "Scent-Free, Worry-Free",
-    subtitle: "Sensitive Skin Friendly",
+    title: "Valentine’s Day",
+    subtitle: "For Valentine's Day, Diptyque celebrates love",
     desc: "민감 피부를 위한 무향 포뮬러",
-    ctaText: "스타터 키트 보러가기",
+    ctaText: "• Discover •",
     ctaHref: "/collections/sensitive",
     image: {
       desktop:  img("main_d_3.png"),
       mobile: img("main_mo_3.jpg"),
     },
-    alt: "민감 피부 라인 배너",
+    alt: "발렌타인데이 히어로 배너",
     active: true,
     order: 3,
-  },
-  {
-    id: "hs-4",
-    title: "Eco-Conscious Beauty",
-    subtitle: "Vegan & Cruelty-Free",
-    desc: "지속 가능성을 생각한 깔끔한 선택",
-    ctaText: "혜택보러가기",
-    ctaHref: "/about",
-    image: {
-      desktop:  img("main_d_4.png"),
-      mobile: img("main_mo_4.jpg"),
-    },
-    alt: "브랜드 철학 배너",
-    active: true,
-    order: 4,
-  },
+  }
 ];
