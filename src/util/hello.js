@@ -3,17 +3,17 @@ export const helloData = {
 
   media: {
     type: "image",                     // "image" | "video"
-    src: img("tocobosun_final_s.gif"),   // public 폴더 기준
+    src: img("hello.png"),   // public 폴더 기준
     alt: "Pink square demo image",
     radius: 24                         // 이미지 둥근 모서리(px)
   },
 
-  eyebrow: "Hello❤️ We are TOCOBO!",
-  title: "Follow <br/> Your Intuition",
+  eyebrow: "We are Diptyque.",
+  title: "Personalized <br/> engraving <br/> by Diptyque",
   description:
-    "민감하고 섬세한 피부에 직관적인 처방을 제안합니다. <br/> 당신의 직감이 깨끗한 아름다움으로 이어지도록,<br/> 토코보의 진정성 있는 메시지로 응답할게요.",
+    "A date, a memory... Diptyque offers you the chance to personalize <br/> a scented creation by having a message engraved on it. <br/>  A unique touch, perfect... Read more",
   cta: {
-    label: "MEET TOCOBO",
+    label: "• Engrave your gift •",
     href: "/about"
   }
 };
