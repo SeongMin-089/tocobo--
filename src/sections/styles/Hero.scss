@@ -2,7 +2,7 @@
     height: 90rem;
 
     h2.tit {
-        font-size: 7.3rem;
+        font-size: 7.2rem;
     }
     .swiper {
         height: 100%;
@@ -36,7 +36,7 @@
             }
 
             a.btn {
-                background: var(--p-gradient);
+                background: var(--tertiary);
             }
         }
 
@@ -50,10 +50,10 @@
             }
 
             a.btn {
-                background: var(--s-gradient);
+                background: var(--tertiary);
 
                 &:hover {
-                    color: var(--main-slider02-tit)
+                    color: var(--tertiary)
                 }
             }
         }
@@ -72,10 +72,10 @@
                 }
 
                 a.btn {
-                    background: var(--t-gradient);
+                    background: var(--tertiary);
 
                     &:hover {
-                        color: var(--main-slider03-tit)
+                        color: var(--tertiary)
                     }
                 }
             }
