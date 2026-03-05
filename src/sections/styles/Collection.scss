@@ -6,9 +6,8 @@
     }
 
     p.txt {
-        margin-top: 1.7rem;
         font-size: 1.9rem;
-        color: var(--secondary)
+        color: var(--primary)
     }
 
     .collection-slider {
@@ -24,7 +23,7 @@
             height: 4rem;
             align-items: center;
             justify-content: center;
-            border-bottom: .1rem solid var(--primary);
+            border-bottom: .2rem solid var(--primary);
             color: var(--primary);
             padding: 0 2rem;
             font-size: 3rem;
@@ -88,7 +87,7 @@
             }
 
             .swiper-pagination-progressbar-fill {
-                background-color: var(--secondary);
+                background-color: var(--primary);
             }
         }
     }
