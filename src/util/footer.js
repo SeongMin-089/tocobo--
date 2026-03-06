@@ -14,7 +14,8 @@ export const logoData = {
 export const companyData = [
   "Diptyque Paris",
   "Head Office: 34 Boulevard Saint-Germain, 75005 Paris",
-  "Business Registration No.: FR XX XXX XXX XXX  [Company Information]",
+  "Business Registration", 
+  "No.: FR XX XXX XXX XXX  [Company Information]",
   "Customer Service: +33 (0)1 43 26 77 44",
   "E-mail: contact@diptyqueparis.com",
   "Online Store Support: service@diptyqueparis.com",
@@ -41,35 +42,43 @@ export const customerCenterData = {
 // 메뉴
 export const footerMenus = [
   {
-    title: "Brand",
+    title: "Services",
     items: [
-      { label: "Brand Story", href: "/brand-story" },
-      { label: "Collection", href: "/collection" },
+      { label: "Exclusive States", href: "/brand-story" },
+      { label: "Exclusive Canada", href: "/collection" },
+      { label: "Diptyque & You", href: "/collection" },
+      { label: "Personalized Engraving", href: "/follow" },
+      { label: "All services", href: "/collection" },
     ],
   },
   {
-    title: "Shop",
+    title: "Informaiton",
     items: [
-      { label: "All Product", href: "/shop" },
-      { label: "MakeUp", href: "/shop/makeup" },
-      { label: "Cleansing", href: "/shop/cleansing" },
-      { label: "Skincare", href: "/shop/skincare" },
-      { label: "Sun", href: "/shop/sun" },
-      { label: "Lip", href: "/shop/lip" },
-      { label: "Set/Etc", href: "/shop/etc" },
+      { label: "Orders", href: "/shop" },
+      { label: "Delivery", href: "/shop/makeup" },
+      { label: "Returns", href: "/shop/cleansing" },
+      { label: "Contact", href: "/shop/skincare" },
+      { label: "FAQ", href: "/shop/sun" },
     ],
   },
   {
-    title: "Promotion",
-    items: [{ label: "Promotion", href: "/promotion" }],
+    title: "Explore website",
+    items: [
+        { label: "Caring for Yours", href: "/promotion" },
+        { label: "Choose a diffuser", href: "/promotion" },
+        { label: "Compose your ceremony", href: "/promotion" },
+        { label: "Refillable Products", href: "/promotion" },
+        { label: "Travel formats", href: "/promotion" },
+    ],
   },
   {
-    title: "Community",
+    title: "Legal",
     items: [
-      { label: "Notice", href: "/notice" },
-      { label: "FAQ", href: "/faq" },
-      { label: "Review", href: "/review" },
-      { label: "1:1 CS", href: "/cs" },
+      { label: "Terms of use", href: "/notice" },
+      { label: "Privacy Policy", href: "/faq" },
+      { label: "Accessibility", href: "/review" },
+      { label: "Brand Protection", href: "/cs" },
+      { label: "Cookie management", href: "/cs" },
     ],
   },
 ];
