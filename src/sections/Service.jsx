@@ -1,11 +1,10 @@
 import React from 'react'
-import instar from '../util/instar'
-import './styles/Instargram.scss'
-const Instargram = () => {
+import './styles/Service.scss'
+const Service = () => {
   return (
     <div className='inner instar-inner'>
       <div className="t-wrap">
-        <h2 className="tit">Instagram</h2>
+        <h2 className="tit">At</h2>
         <p className="txt">@Diptyque</p>
       </div>
       <ul className="instar-list">
