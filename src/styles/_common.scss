@@ -24,10 +24,20 @@
             bottom: 110px;
             background-color: var(--bg3);
             z-index: -3;
+
+            @media screen and (max-width:1111px) {
+                height: 15rem;
+            }
         }
     }
     &#instargram{
         background-color: var(--bg);
+        padding-bottom: 13rem;
+    }
+
+    &#service{
+        height: 51rem;
+        background: url(../img/service.jpg)
     
     }
 
@@ -60,6 +70,13 @@
         text-transform: uppercase;
         z-index: 1;
         cursor: pointer;
+
+        @media screen and (max-width:1111px) {
+            font-size: 1.3rem;
+            padding: 0 3rem;
+            height: 4.1rem;
+
+        }
 
         &::after {
             content: "";
@@ -109,6 +126,11 @@ footer {
         margin: auto;
         position: relative;
         height: 100%;
+        
+        @media screen and (max-width:1800px) {
+            padding-left: 2rem;
+            padding-right: 2rem
+        }
     }
 }
 
@@ -137,4 +159,25 @@ footer {
         }
     }
 
+}
+
+@keyframes up {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-2rem);
+
+    }
+
+}
+
+.mob-only {
+    display: none;
+
+    @media screen and (max-width:1111px) {
+        display: block;
+
+    }
 }

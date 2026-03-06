@@ -1,27 +1,21 @@
-import React from 'react'
-import './styles/Service.scss'
+import React from "react";
+import "./styles/Service.scss";
 const Service = () => {
   return (
-    <div className='inner instar-inner'>
+    <div className="inner service-inner">
       <div className="t-wrap">
-        <h2 className="tit">At</h2>
-        <p className="txt">@Diptyque</p>
+        <h2 className="tit">At your service</h2>
+        <p className="txt">
+          ​Sign up to our newsletter so we can welcome you <br />
+          to the Diptyque community and keep you posted on <br />
+          new launches, events, special offers and more.
+        </p>
+        <a href="#" className="btn">
+          • Find Service •
+        </a>
       </div>
-      <ul className="instar-list">
-        {instar.map((i)=>(
-
-        <li key={i.id}>
-          <a href={i.link}
-          alt={i.alt}
-          style={{backgroundImage:`url(${i.image})`}}
-
-          // 배경 넣어보기
-          >{i.id}</a>
-        </li>
-        ))}
-      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Instargram
+export default Service;

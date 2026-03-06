@@ -8,6 +8,7 @@ import Collection from './sections/Collection'
 import SkinCare from './sections/SkinCare'
 import Instargram from './sections/Instargram'
 import TopBanner from './components/TopBanner'
+import Service from './sections/Service'
 function App() {
   const [topBanner, setTopBanner] = useState('')
   const [isScrolled, setIsScrolled] = useState(false)
@@ -50,6 +51,9 @@ function App() {
         </section>
         <section id="instargram" className='section'>
           <Instargram />
+        </section>
+        <section id='service' className='section'>
+          <Service/>
         </section>
       </main>
       <Footer />
