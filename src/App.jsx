@@ -9,6 +9,7 @@ import SkinCare from './sections/SkinCare'
 import Instargram from './sections/Instargram'
 import TopBanner from './components/TopBanner'
 import Service from './sections/Service'
+import FixedTopBtn from './components/FixedTopBtn'
 function App() {
   const [topBanner, setTopBanner] = useState('')
   const [isScrolled, setIsScrolled] = useState(false)
@@ -34,6 +35,7 @@ function App() {
 
   return (
     <div className={`app-container ${topBanner} ${isScrolled ? 'scrolled' : ''} `}>
+      <FixedTopBtn/>
       <TopBanner onClick={upTopBanner}/>
       <Header />
       <main>

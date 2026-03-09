@@ -92,7 +92,7 @@ export const socialLinks = [
   },
   {
     id: "instagram",
-    abel: "Instagram",
+    label: "Instagram",
     href: "https://www.instagram.com/your-instagram",
     icon: FaInstagramSquare
   },

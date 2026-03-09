@@ -164,5 +164,14 @@ footer {
         color: #6f6f6f;
       }
     }
+    .sns-links {
+      display: flex;
+      gap: 2.3rem;
+      margin-top: 16rem;
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+    }
   }
 }
