@@ -39,6 +39,12 @@ export const headerData = {
             href: '#instargram',
             type: 'section'
         },
+        {
+            id: 'service',
+            label: 'service',
+            href: '#service',
+            type: 'section'
+        }
     ],
     utils: [
         { id: "language", label: "언어", icon: img("icon_language.svg"), href: "#" },
