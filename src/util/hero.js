@@ -12,7 +12,7 @@ export const heroSlides = [
     ctaHref: "/products",
     image: {
       desktop: img("main_d_1.png"),
-      mobile: img("main_mo_1.jpg"),
+      mobile: img("main_mo_1.png"),
     },
     alt: "선물 히어로 배너",
     active: true,
@@ -27,7 +27,7 @@ export const heroSlides = [
     ctaHref: "/story/hydration",
     image: {
       desktop:  img("main_d_2.png"),
-      mobile: img("main_mo_2.jpg"),
+      mobile: img("main_mo_2.png"),
     },
     alt: "향수 히어로 배너",
     active: true,
@@ -42,7 +42,7 @@ export const heroSlides = [
     ctaHref: "/collections/sensitive",
     image: {
       desktop:  img("main_d_3.png"),
-      mobile: img("main_mo_3.jpg"),
+      mobile: img("main_d_3.png"),
     },
     alt: "발렌타인데이 히어로 배너",
     active: true,
