@@ -4,9 +4,21 @@
     justify-content: space-between;
     // align-items: center;
     // background-color: var(--bg3);
+    @media screen and (max-width:1111px) {
+        flex-direction: column;
+        gap: 4.4rem;
+
+        .t-wrap {
+            text-align: center;
+
+        }
+    }
     h2.tit {
         font-size: 5.5rem;
         color: var(--primary);
+        @media screen and (max-width:1111px) {
+            margin-bottom: 2rem;
+        }
     }
     p.txt {
         margin-top: .9rem;
@@ -27,15 +39,47 @@
         // background-color: salmon;
         position: relative;
         // border: 1px solid #000;
+
+        @media screen and (max-width:1440px) {
+            height: 46rem;
+
+
+        }
+
+        @media screen and (max-width:1111px) {
+
+            transform: translateX(0);
+            width: 90vw;
+            height: 40rem;
+        }
+
+        @media screen and (max-width:599px) {
+            height: 30rem;
+        }
+        
         .in {
             position: absolute;
             width: 200%;
             height: 100%;
             // background-color: rgba(244, 165, 96, 0.432);
 
+            @media screen and (max-width:1440px) {
+                width: 176%;
+            }
+            @media screen and (max-width:999px) {
+                width: 200%;
+            }
+
 
             .skincare-slider{
                 height: 100%;
+
+                .swiper-slide {
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                
                 a{
                     display: block;
                     height: 100%;
