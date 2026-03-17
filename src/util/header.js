@@ -56,9 +56,9 @@ export const headerData = {
         enabled: true,
         height: 64,
         items: [
-            { id: "tb-1", text: "Complimentary limited-edition gifts with qualifying purchases. Learn more.", href: "#" },
-            { id: "tb-2", text: "Complimentary limited-edition gifts with qualifying purchases. Learn more.", href: "#" },
-            { id: "tb-3", text: "Complimentary limited-edition gifts with qualifying purchases. Learn more.", href: "#" },
+            { id: "tb-1", text: "Complimentary gifts with selected purchases.", href: "#" },
+            { id: "tb-2", text: "Exclusive gifts for a limited time.", href: "#" },
+            { id: "tb-3", text: "Enjoy a complimentary gift with your order.", href: "#" },
         ],
         closeIcon: img("icon_pop_close_b.png"),
         background: "#DC272D",

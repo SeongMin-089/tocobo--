@@ -6,7 +6,7 @@
     .t-wrap {
         text-align: center;
         h2.tit {
-            font-size: 6.6rem;
+            font-size: clamp(5rem, 6vw, 6.6rem);
             color: var(--tertiary);
         }
         p.txt {
