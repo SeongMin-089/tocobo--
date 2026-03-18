@@ -1,6 +1,5 @@
 const img = (path) => `/img/${path}`;
 
-
 // Hero 슬라이더용 "가짜 DB" 데이터
 export const heroSlides = [
   {
@@ -26,7 +25,7 @@ export const heroSlides = [
     ctaText: "• Discover •",
     ctaHref: "/story/hydration",
     image: {
-      desktop:  img("main_d_2.png"),
+      desktop: img("main_d_2.png"),
       mobile: img("main_mo_2.png"),
     },
     alt: "향수 히어로 배너",
@@ -41,11 +40,11 @@ export const heroSlides = [
     ctaText: "• Discover •",
     ctaHref: "/collections/sensitive",
     image: {
-      desktop:  img("main_d_3.png"),
-      mobile: img("main_d_3.png"),
+      desktop: img("main_d_3.png"),
+      mobile: img("main_mo_3.png"),
     },
     alt: "발렌타인데이 히어로 배너",
     active: true,
     order: 3,
-  }
+  },
 ];

@@ -36,8 +36,13 @@
     }
 
     &#service{
+        width: 100%;
         height: 51rem;
-        background: url(../img/service.jpg) no-repeat center/cover
+        background: url(../img/service.png) no-repeat center/cover;
+        
+        @media screen and (max-width:900px) {
+            background: url(../img/mob-service.png) no-repeat center/cover;
+        }
     
     }
 
@@ -73,11 +78,10 @@
 
         @media screen and (max-width:1111px) {
             font-size: 1.3rem;
-            padding: 0 3rem;
+            width: 20rem;
             height: 4.1rem;
 
         }
-
         &::after {
             content: "";
             display: block;
