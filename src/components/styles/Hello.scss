@@ -19,7 +19,7 @@
             color:var(--primary);
             line-height: 8rem;
             margin: 3rem 0 4rem;
-            @media screen and (max-width:480px) {
+            @media screen and (max-width:590px) {
                 font-size: 5rem;                
                 line-height: 6rem;
                 margin: 2.5rem 0 3.5rem;
@@ -27,7 +27,7 @@
         }
         
         p.txt-1 {
-            @media screen and (max-width:480px) {
+            @media screen and (max-width:590px) {
                 font-size: 1.2rem;                
             }
 
