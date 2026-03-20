@@ -18,6 +18,10 @@
         }
     }
     &#skincare{
+        @media screen and (max-width:590px) {
+            overflow-x: hidden;
+            
+        }
         &::after{
             display: block;
             content:"";
