@@ -3,6 +3,10 @@
 
   h2.tit {
     color: var(--primary);
+    @media screen and (max-width: 590px) {
+      font-size: 4rem;
+      
+    }
   }
 
   p.txt {
