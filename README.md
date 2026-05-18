@@ -1,16 +1,25 @@
-# React + Vite
+## 프로젝트 설명
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TOCOBO 사이트의 레이아웃 구조를 기반으로, Diptyque 브랜드의 분위기와 콘텐츠에 맞게 재구성한 반응형 클론 코딩 프로젝트입니다.
 
-Currently, two official plugins are available:
+전체적인 섹션 흐름과 화면 구성은 TOCOBO 사이트를 참고했고, 이미지, 텍스트, 브랜드 컬러, 상품 구성 등 세부 요소는 Diptyque의 고급스럽고 차분한 분위기에 맞춰 변경했습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React 컴포넌트 구조를 기반으로 메인 비주얼 슬라이드, 상품 슬라이드, 모바일 메뉴, 부드러운 섹션 이동, 스크롤 애니메이션 등을 구현하면서 실제 브랜드 사이트와 비슷한 사용자 경험을 만들고자 했습니다.
 
-## React Compiler
+## 주요 기능
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- TOCOBO 레이아웃 기반 Diptyque 스타일 클론 구현
+- React 컴포넌트 기반 섹션 구조 분리
+- Swiper를 활용한 메인 비주얼 슬라이드 구현
+- 화면 크기에 따른 PC / 모바일 이미지 분기 처리
+- 상품 데이터를 배열로 분리하고 `map()`을 활용한 반복 렌더링 구현
+- Swiper 커스텀 이전 / 다음 버튼 구현
+- 모바일 햄버거 메뉴 구현
+- 모바일 메뉴 오픈 시 body 스크롤 방지 처리
+- 메뉴 클릭 시 해당 섹션으로 이동 후 메뉴 자동 닫힘 처리
+- `useSmoothScroll` 커스텀 훅을 활용한 부드러운 섹션 이동 구현
+- AOS를 활용한 스크롤 애니메이션 적용
+- delay 값을 활용한 순차 등장 애니메이션 구현
+- 슬라이드 이미지, 상품 정보, 메뉴 목록 데이터 분리
+- SCSS를 활용한 반응형 스타일링
+- Vercel을 통한 프로젝트 배포
